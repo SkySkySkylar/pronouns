@@ -1,1 +1,5 @@
-console.log('This would be the main JS file.');
+$(document).ready(function() {
+    $("downloads").hover(function() {
+        $(this).hide();
+    });
+});  
